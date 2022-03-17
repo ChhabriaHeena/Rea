@@ -1,0 +1,36 @@
+.map iframe {
+    width: 100%;
+}
+
+.agents-profile {
+    height: 100%;
+}
+
+.agents-profile .name {
+    padding-top: 25%;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 60%;
+}
+
+.agents-profile .name i {
+    color: orangered;
+}
+
+.name .details a {
+    display: none;
+}
+
+.name:hover .names {
+    display: none;
+}
+
+.name:hover .details a {
+    display: inline;
+    color: orangered;
+    font-size: 30px;
+    padding-left: 40px;
+    font-weight: bold;
+    text-decoration: none;
+}

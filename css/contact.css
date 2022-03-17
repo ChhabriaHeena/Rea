@@ -1,0 +1,76 @@
+@media(max-width:991px) {
+    .c-head iframe {
+        width: 100%;
+    }
+}
+
+.contact-content {
+    background-color: orangered;
+    padding-left: 70px;
+    padding-top: 30px;
+    color: white;
+    line-height: 3rem;
+}
+
+.contact-content i {
+    font-size: 25px;
+}
+
+.contact-head {
+    line-height: 20px;
+}
+
+.contact-head .support h6 {
+    color: orangered;
+}
+
+.support p {
+    padding-top: 20px;
+}
+
+.contact-head .row i {
+    font-size: 50px;
+    margin-bottom: 15%;
+    color: orangered;
+}
+
+.contact-head .row h5 {
+    margin-bottom: 7%;
+    font-weight: bolder;
+}
+
+.pr-30 {
+    padding-right: 10%;
+}
+
+.pursue {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hand-shake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    padding-top: 20%;
+}
+
+.pursue h1 {
+    font-size: 70px;
+}
+
+.pursue p {
+    font-size: 20px;
+}
+
+.pursue button {
+    background-color: orangered;
+    color: white;
+    font-size: 20px;
+    width: 15%;
+    padding: 10px 0;
+    border-radius: 10px;
+    border: none;
+}
+
+.pursue button a {
+    color: white;
+    text-decoration: none;
+}

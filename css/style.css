@@ -1,0 +1,227 @@
+/* Navbar  */
+
+.Navbar-section .navbar-brand {
+    font-size: 50px;
+    color: orangered;
+    font-weight: bolder;
+}
+
+.Navbar-section .nav-item .nav-link {
+    padding-right: 40px;
+}
+
+.Navbar-section a {
+    color: black;
+}
+
+
+/* Heading  */
+
+h1 {
+    font-weight: bolder;
+}
+
+.heading {
+    background-image: url(../images/heading-bg.jpg);
+    height: 750px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+
+.heading h1 {
+    padding-top: 100px;
+    line-height: 6rem;
+    font-weight: bolder;
+    font-size: 5rem;
+}
+
+@media (max-width: 662px) {
+    .heading h1 {
+        font-size: 2rem;
+    }
+}
+
+
+/* Process */
+
+.head {
+    margin: 100px 0;
+}
+
+.process .container .icons {
+    color: orangered;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+
+/* .row .info {
+    margin-bottom: 100px;
+} */
+
+
+/* Video  */
+
+.videos {
+    padding-left: 40px;
+}
+
+@media (max-width: 1282px) {
+    .video .videos {
+        display: none;
+    }
+}
+
+
+/* Professional */
+
+.professional .row .home-img img {
+    width: 100%;
+    height: 70%;
+}
+
+.professional .container .content {
+    padding-top: 20%;
+    padding-left: 40px;
+    padding-right: 60px;
+}
+
+.professional .container .content p {
+    padding: 30px 0;
+}
+
+.professional .container .content .btn {
+    background-color: orangered;
+    color: #fff;
+    width: 160px;
+    font-weight: bold;
+}
+
+.professional .container .content .btn a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* knowledge */
+
+.knowledge .content-section {
+    padding-left: 40px;
+}
+
+.knowledge .content-section h1 {
+    line-height: 130%;
+    font-size: 300%;
+}
+
+.knowledge .car1 img {
+    width: 400px;
+}
+
+.knowledge .container {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.knowledge .content-section .btn {
+    background-color: orangered;
+    color: #fff;
+    width: 160px;
+    font-weight: bold;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: black;
+    border-radius: 50%;
+}
+
+
+/* Subscription */
+
+.subscription {
+    padding-left: 50px;
+    background-color: orangered;
+    color: #fff;
+    line-height: 60px;
+}
+
+input {
+    border-radius: 5px;
+    width: 50%;
+    border-color: rgb(224, 221, 221);
+}
+
+.subscribe {
+    border-radius: 5px;
+    border-color: rgb(224, 221, 221);
+    width: 40%;
+}
+
+@media (max-width: 1404px) {
+    .subscription .row .media {
+        display: none;
+    }
+}
+
+
+/* Work  */
+
+.work {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/relax.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: rgb(255, 255, 255);
+    line-height: 7;
+    padding-top: 13%;
+    opacity: 0.9;
+}
+
+.work h1 {
+    font-weight: bolder;
+    font-size: 80px;
+}
+
+.work .btn {
+    background-color: orangered;
+    color: #fff;
+    width: 160px;
+    font-weight: bold;
+    height: 50px;
+}
+
+.work .btn a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Footer  */
+
+.list-unstyled li {
+    color: rgb(88, 88, 88);
+    text-decoration: none;
+}
+
+.list-unstyled li a {
+    color: rgb(88, 88, 88);
+}
+
+.icons {
+    padding-left: 40px;
+    letter-spacing: 10px;
+}
+
+.terms {
+    color: rgb(88, 88, 88);
+    margin-bottom: 70px;
+}

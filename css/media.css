@@ -1,0 +1,91 @@
+.media-heading {
+    width: 204%;
+    color: #fff;
+}
+
+@media(max-width:1196px) {
+    .media-heading {
+        width: 172%;
+    }
+}
+
+@media(max-width:995px) {
+    .media-heading {
+        width: 128%;
+    }
+}
+
+@media(max-width:770px) {
+    .media-heading {
+        width: 100%;
+    }
+}
+
+.container-1 {
+    background-color: #000;
+}
+
+.carousel-1 {
+    height: 60vh;
+    padding-left: 30px;
+    padding-top: 25%;
+}
+
+.book .row {
+    background-color: orangered;
+    /* padding-top: 40px; */
+    color: #fff;
+    height: 100%;
+    line-height: 30px;
+}
+
+@media(max-width:831px) {
+    .book .row .image {
+        display: none;
+    }
+}
+
+.new {
+    padding-top: 10%;
+    text-align: right;
+    padding-right: 15%;
+}
+
+.blogs a {
+    color: black;
+    text-decoration: none;
+}
+
+.book .image {
+    padding-top: 5%;
+    margin-bottom: -70px;
+    transform: rotate(-35deg);
+}
+
+.book .btn {
+    background-color: #fff;
+    font-weight: bolder;
+    height: 18%;
+    width: 60%;
+}
+
+.everything {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hand-shake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    height: 100vh;
+    width: 100%;
+    padding-top: 20%;
+    font-weight: bolder;
+}
+
+.everything .agent {
+    width: 50%;
+    line-height: 30px;
+    padding-left: 10%;
+}
+
+.everything .agent .agent-heading {
+    font-size: 200%;
+}

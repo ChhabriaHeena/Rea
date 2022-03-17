@@ -1,0 +1,64 @@
+.a-head {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/home-keys.jpg);
+    height: 60vh;
+    color: #fff;
+    padding-left: 40%;
+    padding-top: 20%;
+    background-size: cover;
+}
+
+.mission-heading p {
+    color: orangered;
+}
+
+.mission-heading h1 {
+    font-weight: bolder;
+    margin-bottom: 5%;
+}
+
+.mission-grid {
+    padding: 40px;
+    padding-top: 30px;
+}
+
+.mission-grid i {
+    margin-bottom: 30px;
+    font-size: 30px;
+    color: orangered;
+}
+
+
+/* bring  */
+
+.bring {
+    padding-top: 15%;
+    border-radius: 10px;
+    line-height: 2rem;
+    padding-left: 5%;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.bring:hover {
+    background-color: orangered;
+    color: #fff;
+    transition: 0.7s all;
+}
+
+.link {
+    color: black;
+}
+
+.link:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.life {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/life.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    padding-top: 20%;
+}
